@@ -1,7 +1,7 @@
-"use strict";var r=function(o,e){return function(){return e||o((e={exports:{}}).exports,e),e.exports}};var i=r(function(x,a){a.exports=["sqeuclidean","cosine","cityblock","correlation"]});var n=r(function(y,t){
-var l=i();function q(){return l.slice()}t.exports=q
-});var s=r(function(b,c){
-function m(){return{sqeuclidean:0,cosine:1,cityblock:2,correlation:3}}c.exports=m
-});var d=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),u=n(),v=s();d(u,"enum",v);module.exports=u;
+"use strict";var r=function(o,e){return function(){try{return e||o((e={exports:{}}).exports,e),e.exports}catch(a){throw (e=0, a)}};};var i=r(function(y,l){l.exports=["sqeuclidean","cosine","cityblock","correlation"]});var n=r(function(b,t){
+var q=i();function m(){return q.slice()}t.exports=m
+});var s=r(function(f,c){
+function d(){return{sqeuclidean:0,cosine:1,cityblock:2,correlation:3}}c.exports=d
+});var v=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),u=n(),p=s();v(u,"enum",p);module.exports=u;
 /** @license Apache-2.0 */
 //# sourceMappingURL=index.js.map
